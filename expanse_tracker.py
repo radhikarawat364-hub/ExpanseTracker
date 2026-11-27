@@ -1,6 +1,5 @@
-# ==================================
-#       SIMPLE EXPENSE TRACKER
-# ==================================
+
+#       SIMPLE EXPENSE TRACKER
 
 expenses = []
 
@@ -62,9 +61,8 @@ def show_total():
         total = total + expense["amount"]
 
     print("\n💰 Total Expense: ₹", total)
-# ----------------------------------
+
 # Search Expense by Category
-# ----------------------------------
 
 def search_expense():
 
